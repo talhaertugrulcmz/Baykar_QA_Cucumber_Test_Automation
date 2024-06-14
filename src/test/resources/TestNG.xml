@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Baykar Web Automation Project">
+    <parameter name = "browser" value = "Chrome"/>
+    <test name="Cucumber">
+        <classes>
+            <class name = "TestRunner.runner"/>
+        </classes>
+    </test>
+</suite>
